@@ -1,0 +1,83 @@
+body{
+    background-color: #00FF7F;
+    overflow-x: hidden;
+}
+.slider-wraper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+button{
+    
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+}
+.prev img,
+.next img{
+  width:30px;
+  height: 30px;
+ 
+}
+
+.slider {
+   
+    
+    width: 100%;
+    height: 450px;
+    position: relative;
+    
+}
+.slider__slide {
+   width: 100%;
+   text-align: center;  
+   padding-top: 150px;
+   padding-bottom: 150px;
+   background-color: #AB343A;
+   position:absolute ;
+   
+   
+}
+h2{
+    font-size: 70px;
+    color: #FFFFFF;
+   }
+.prev{
+    position: absolute;
+    left: 20px;
+    top: 40%;
+}
+.next{
+    position: absolute;
+    top: 40%;
+    right: 20px;
+}
+.dots-wraper {
+    margin-top:20px;
+  display: flex;
+}
+.dot {
+        height: 15px;
+        width: 15px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        background-color: #FFFFFF;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        transition: all 0.1s ease-in-out;
+        margin-left: 10px;
+}
+.dot:hover{
+    background-color: black;
+}
+.dot_active{
+    background-color: #000000;
+}
